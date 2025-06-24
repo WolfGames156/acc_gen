@@ -6,7 +6,7 @@ import time
 import asyncio
 
 import os
-TOKEN = "MTM4Njc5OTIxNDI3MjU3NzU2Nw.GAMjOp.4PpoesxHYNbiCh0e68QSeqgsdUdVcAkLQtewz8"
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 intents.message_content = True
