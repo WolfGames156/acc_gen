@@ -4,6 +4,8 @@ import os
 import random
 import time
 import asyncio
+from keep_alive import keep_alive
+keep_alive()
 
 import os
 TOKEN = os.environ["DISCORD_TOKEN"]
